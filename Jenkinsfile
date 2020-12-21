@@ -17,6 +17,6 @@ pipeline {
           s3Upload(pathStyleAccessEnabled:true, payloadSigningEnabled: true, file:'index.html', bucket:'skdevops.sokibi.com')
         }
       }
-    }
   }
+}
 }
